@@ -1,8 +1,9 @@
 #!/usr/bin/env perl
 #########################
-# bugfix: 解决 打开文件失败也返回 0 的情况
+# bugfix:  TODO: recolv return 0 when open the backupset failed 
 # Author: billyxue
 # Email: crakcer0@126.com
+#########################
 
 ###################
 # example:
@@ -562,7 +563,7 @@ connect_db_spy();
 
 
 ######################## may need use perlipc
-# 用一个hash标识哪个任务是完成的，不需要重做
+# using a hash table to mark if need to redo 
 
 our @IP = @need_database_bakset_ha;
 our $TOTAL_TASK = @IP; 
