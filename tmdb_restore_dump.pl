@@ -787,13 +787,10 @@ This option displays the xtrabackup version and copyright notice and then exits.
 =head1 BUGS
 
 Bugs can be reported on Launchpad: http://dbm.taomee.com
-Author: wallmud@taomee.com  
-		hillmiao@taomee.com
-		billy@taomee.com
+Author: billy@taomee.com
 
 =head1 COPYRIGHT
 
-InnoDB Backup Utility Copyright 2003, 2009 Innobase Oy and Percona, Inc 2009-2012. All Rights Reserved.
 
 This software is published under the GNU GENERAL PUBLIC LICENSE Version 2, June 1991.
 
